@@ -1,0 +1,132 @@
+/*
+Project Name: Relaxer Landing Page
+Client: Relaxer
+Author: Trey Quattlebaum
+Front-end Developer
+*/
+
+#header, #header h1, h2, .button, #quote, #footer h1 {
+    font-family: "Open Sans", sans-serif;
+}
+#header, #quote{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#header{
+    background-image: url(../images/header_bg.jpg);
+    height: 700px;
+    background-color: grey;
+    text-align: center;
+}
+#header h1{
+    height: 38px;
+    width: 158px;
+    color: white;
+    margin: 50px 115px;
+    font-size: 3em;
+    font-weight: 800;
+}
+body>div{
+    border: 1px solid black;
+}
+h2{
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 65px;
+    font-size: 2.75em;
+    font-weight: 600;
+    letter-spacing: 0.05em
+}
+.button {
+    font-size: 1.5em;
+    margin-top: 25px;
+    height: 51px;
+    width: 284px;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-shadow: 1px 1px 1px #feff33;
+    margin-left: 40%;
+    padding-top: 10px;
+}
+a {
+    text-decoration: none;
+}
+#header .button {
+    background-color: #feff33;
+    font-weight: bold;
+    color: black;
+}
+#benefits {
+    background-color: white;
+    height: 600px;
+    font-size: 1.5em;
+    font-family: "Open Sans", sans-serif;
+}
+#benefits h1{
+    margin-left: 115px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    font-weight: 800;
+}
+ul {
+    margin-left: 60px;
+    margin-top: 40px;
+    line-height: 1.5em;
+    width: 445px;
+}
+#benefits div{
+    width: 580px;
+    height: 350px;
+    margin-left: 120px;
+    margin-top: 35px;
+}
+#quote {
+    background-image: url(../images/testimonial_bg.jpg);
+    height: 400px;
+    background-color: grey;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+blockquote {
+    margin: 85px 350px 0px 350px; 
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+}
+#signUp {
+    height: 120px;
+    text-align: center;
+    background-color: #feff33;
+}
+#signUp .button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #00004d;
+    color: white;
+}
+#footer{
+    background-color:  #1a1a1a;
+    height: 350px;
+    text-align: center;
+}
+#footer h1{
+    font-size: 3em;
+    font-weight: 800;
+    color:  #feff33;
+}
+#footer p{
+    color: white;
+    margin-top: 100px;
+}
+#footer a{
+    margin: 25px;
+}
+#header .button:hover{
+    background-color: #00004d;
+    color: white;
+}
+#signUp .button:hover {
+    color: #feff33;
+}

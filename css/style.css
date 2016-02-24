@@ -1,0 +1,218 @@
+/*This section of CSS used on all pages*/
+#hire, .pure-button, h3, h2, li, .h1Fix, #billboard{
+	font-family: "Oswald", sans-serif;
+}
+body {
+	background-color: black;
+	/*background-image: url(images/desk.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;*/
+}
+#header {
+	/*text-align: center;
+	margin: 20px;
+	padding:0px 50px 10px 50px;
+	/*background-color: black;*/
+	/*border-radius: 10px;*/
+	/*opacity: 0.7;*/
+	/*position: fixed;*/
+}
+.container {
+	position: fixed;
+	top: 0;
+	text-align: center;
+	margin: 10px 20px;
+	padding:0px 70px 10px 70px;
+	background-color: black;
+	border-radius: 10px;
+	width: 1169px;
+}
+a{
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	margin: 10px;
+}
+a:hover {
+	color: #0066ff;
+}
+#logo{
+	font-family: "Norican", cursive;
+	font-size: 50px;
+	float:left;
+	border-radius: 10%;
+	height: 80px;
+	width: 80px;
+	padding: 15px 15px 15px 15px;
+	margin: 10px;
+	background-color: white;
+}
+#hire{
+	font-size: 20px;
+	float:right;
+	background-color: white;
+	border-radius: 5%;
+}
+.pure-button{
+	background-color: white;
+	font-size: 15px;
+	margin: 40px 10px 40px 10px;
+	letter-spacing: 1.25px;
+}
+#footer{
+	text-decoration: none;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin: 5px 20px 55px 20px;
+	/*background-color: black;*/
+	border-radius: 10px;
+	/*opacity: 0.7;*/
+}
+h3 {
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	letter-spacing: 1.25px;
+}
+.billboard {
+	height: 200px;
+	width: 700px;
+	margin-left: 375px;
+	margin-top: 85px;
+	text-align: left;
+}
+.black {
+	color: black;
+	text-align: left;
+}
+.h1Fix{
+	/*text-align: left;*/
+	font-size: 40px;
+	color: black;
+	letter-spacing: 1.25px;
+}
+p{
+	font-family: "Oswald light 300", sans-serif;
+	color: white;
+	letter-spacing: 1.25px;
+
+}
+
+h2 {
+	text-align: center;
+	color: white;
+	font-size: 45px;
+	letter-spacing: 1.25px;
+}
+/*End of all pages CSS*/
+#billboard{
+	border-radius: 10px;
+	/*background-color: white;*/
+	background-color: #1a1a1a;
+	padding: 75px 70px 35px 70px;
+	margin: 150px 20px 5px 20px;
+	/*opacity: 0.7;*/
+	height: 500px;
+	text-align: center;
+}
+/*Beginning About page CSS*/
+#body{
+	border-radius: 10px;
+	/*background-color: gray;*/
+	padding: 150px 70px 35px 70px;
+	margin: 30px 20px;
+	/*opacity: 0.7;*/
+	height: 300px;
+}
+#avatar{
+	height: 200px;
+	width: 200px;
+	float: right;
+	border-radius: 100%;
+	border: 3px solid white;
+}
+#body p {
+	width: 700px;
+	margin-left: 75px;
+}
+/*End About page*/
+/*Beginning of Work page CSS*/
+.work {
+	height: 300px;
+	width: 530px;
+	border: 5px solid white;
+	margin-left: 75px;
+	float: left;
+	opacity: 1;
+}
+#work {
+	display: inline-block;
+	border-radius: 10px;
+	background-color: #1a1a1a;
+	padding: 150px 70px 45px 70px;
+	margin: 0px 20px 5px 20px;
+}
+.discription{
+	float: right;
+	margin: 75px;
+}
+.workhead {
+	float: right;
+	margin-right: 200px;
+}
+
+/*End of Work Page CSS*/
+/* Beginning of Hire Me page CSS*/
+#contact {
+	border-radius: 10px;
+	/*background-color: black;*/
+	padding: 120px 200px 10px 200px;
+	margin: 5px 20px 5px 20px;
+	/*opacity: 0.7;*/
+}
+li {
+	/*font-family: "Oswald", sans-serif;*/
+	text-align: left;
+	font-size: 30px;
+	color: white;
+	list-style: none;
+	margin-bottom: 15px;
+}
+.marginminus {
+	margin-bottom: 0px;
+}
+/*End of Hire Me page*/
+.marginplus {
+	margin-bottom: 50px,
+}
+.section-3 .text-wrapper {
+    max-width: 900px;
+    margin: auto;
+    font-size: 3em;
+    line-height: 4em;
+    margin-top: 4%;
+		/*color: black;*/
+}
+.section-3 .text-wrapper span {
+    opacity: 0;
+    -webkit-transition: opacity 0.2s;
+}
+.section-3 .text-wrapper span.visible {
+    opacity: 1;
+}
+#work a {
+	clear: right;
+	height: 300px;
+	width: 530px;
+	/*border: 5px solid white;*/
+	/*margin-left: 75px;*/
+	float: left;
+	opacity: 1;
+}
+.blackFix {
+	color: black;
+}
